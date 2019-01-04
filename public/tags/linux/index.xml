@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Assist.Prof.Dr. Alper YILMAZ</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 08 Apr 2010 09:11:53 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Most used commands in history</title>
+      <link>/blog/2010/04/08/most-used-commands-in-history/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      
+      <guid>/blog/2010/04/08/most-used-commands-in-history/</guid>
+      <description>Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.
+This approach considers pipes, process substitution by backticks or $() and multiple commands separated by ;
+Perl regular expression breaks up each line using | or &amp;lt;( or ; or ` or $( and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)
+history | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /\b((?</description>
+    </item>
+    
+    <item>
+      <title>bash completion for scp</title>
+      <link>/blog/2010/03/10/bash-completion-for-scp/</link>
+      <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
+      
+      <guid>/blog/2010/03/10/bash-completion-for-scp/</guid>
+      <description>I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.
+If you are suffering from same symptom, please read this article for fix.</description>
+    </item>
+    
+  </channel>
+</rss>

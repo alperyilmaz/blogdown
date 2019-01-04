@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on Assist.Prof.Dr. Alper YILMAZ</title>
+    <link>/tags/jekyll/</link>
+    <description>Recent content in jekyll on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 20 May 2016 01:10:57 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jekyll themes I want to try</title>
+      <link>/blog/2016/05/20/jekyll-themes-i-want-to-try/</link>
+      <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
+      
+      <guid>/blog/2016/05/20/jekyll-themes-i-want-to-try/</guid>
+      <description>&lt;p&gt;After going thru a &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34; target=&#34;_blank&#34;&gt;long list of themes&lt;/a&gt;, the following themes have some or all capabilities I&amp;rsquo;d like to have in a theme:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

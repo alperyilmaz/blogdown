@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>perl on Assist.Prof.Dr. Alper YILMAZ</title>
+    <link>/tags/perl/</link>
+    <description>Recent content in perl on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 07 Jul 2011 09:33:37 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transpose a matrix with perl nested map</title>
+      <link>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</link>
+      <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
+      
+      <guid>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</guid>
+      <description>Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:
+$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 1	12 2	13 3	14 4	15 5	16  Now, let&amp;rsquo;s use a perl one-liner with nested maps to transpose the matrix:
+$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &amp;quot;\n&amp;quot;,map {$row=$_; join&amp;quot;\t&amp;quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &amp;quot;\n&amp;quot; }&#39; 1	2	3	4	5 12	13	14	15	16  I got the idea from this blog post, but I slightly modified it so that you don&amp;rsquo;t need to make a copy of the transposed array (to save memory)</description>
+    </item>
+    
+    <item>
+      <title>Extract intervals from an array of numbers</title>
+      <link>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</link>
+      <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
+      
+      <guid>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
+
+&lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extract upstream region sequence with bedtools</title>
+      <link>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</link>
+      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
+      
+      <guid>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</guid>
+      <description>Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. bedtools is one of them and it&amp;rsquo;s easy to use and flexible. Most importantly you can integrate it with commandline pipes.
+In this post, I&amp;rsquo;ll be describing how to extract upstream region sequences with the help of bedtools. I&amp;rsquo;ll be using the following files in my sample:</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to pick random sequences from fasta file</title>
+      <link>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
+      
+      <guid>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <description>In an earlier post we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?
+To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that rand(@array) returns index of a random element from that array.
+Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:</description>
+    </item>
+    
+    <item>
+      <title>Way more practical one-liners with perl5i</title>
+      <link>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</link>
+      <pubDate>Mon, 26 Apr 2010 23:48:05 +0000</pubDate>
+      
+      <guid>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</guid>
+      <description>perl5i project explains itself as &amp;ldquo;Perl 5 has a lot of warts, fix as much of it as possible in one pragma&amp;rdquo;. You can run your scripts with it by including perl5i (ie, use perl5i;). Best part is, it can be run at commandline with $ perl5i -e .
+perl5i includes Autobox module which lets you call methods on primitive datatypes such as scalars and arrays (eg. &amp;ldquo;hello world&amp;rdquo;-&amp;gt;print). This feature allows constructing very compact one-liners as shown below:</description>
+    </item>
+    
+    <item>
+      <title>Most used commands in history</title>
+      <link>/blog/2010/04/08/most-used-commands-in-history/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      
+      <guid>/blog/2010/04/08/most-used-commands-in-history/</guid>
+      <description>Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.
+This approach considers pipes, process substitution by backticks or $() and multiple commands separated by ;
+Perl regular expression breaks up each line using | or &amp;lt;( or ; or ` or $( and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)
+history | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /\b((?</description>
+    </item>
+    
+    <item>
+      <title>One line statistics</title>
+      <link>/blog/2010/04/02/one-line-statistics/</link>
+      <pubDate>Fri, 02 Apr 2010 13:05:52 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/one-line-statistics/</guid>
+      <description>Let&amp;rsquo;s assume we have a file with five columns where first column is text and rest of the columns are numeric. How can we calculate the standard deviation (or other statistical functions) with a perl one-liner?
+We&amp;rsquo;ll use Statistics::Descriptive module.
+perl -MStatistics::Descriptive -ane &#39;BEGIN{our $stat = Statistics::Descriptive::Full-&amp;gt;new}; $stat-&amp;gt;add_data(@F[1..4]); print $stat-&amp;gt;standard_deviation,&amp;quot;\n&amp;quot;; $stat-&amp;gt;clear&#39; filename  $stat-&amp;gt;clear at the end was needed since data is added not assigned to $stat each time, so in order to prevent cumulative calculation, $stat variable should be cleared each time.</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to process sequence files in stream</title>
+      <link>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <description>Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.
+perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename  OR
+cat filename | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39;  There are many more methods to use from Bio::Seq, such as revcom, translate, subseq(start,end), primary_id, desc, etc.
+Piped file does not need to be in Fasta format, there are many other formats (listed here) which SeqIO can parse successfully.</description>
+    </item>
+    
+    <item>
+      <title>Top ten occurrences with perl one-liner</title>
+      <link>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</link>
+      <pubDate>Tue, 30 Mar 2010 13:56:19 +0000</pubDate>
+      
+      <guid>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</guid>
+      <description>Very nice perl one-liner using map, sort and array range to show top ten occurrences
+Taken from Tech@Sakana blog
+perl -ane &#39;$c{$F[0]}++; END {print map {$_ . &amp;quot;\t-&amp;gt;\t&amp;quot; . $c{$_} . &amp;quot;\n&amp;quot;} (sort {$c{$b} &amp;lt;=&amp;gt; $c{$a}} keys %c)[0..9]}&#39; filename  Same thing can be achieved by:
+sort filename | uniq -c | sort -nr | head  But the perl one-liner demonstrates the nice combination of sort and map.</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to change table layout with Hash-of-Hash-of-Array</title>
+      <link>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
+      <pubDate>Thu, 25 Mar 2010 01:42:53 +0000</pubDate>
+      
+      <guid>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
+      <description>I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.
+In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.</description>
+    </item>
+    
+    <item>
+      <title>Retrieve WP categories from commandline</title>
+      <link>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</link>
+      <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
+      
+      <guid>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</guid>
+      <description>Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..
+use WordPress::XMLRPC; my $o = WordPress::XMLRPC-&amp;gt;new({ username =&amp;gt; &#39;username&#39;, password =&amp;gt; &#39;password&#39;, proxy =&amp;gt; &#39;http://yourblog-address/xmlrpc.</description>
+    </item>
+    
+  </channel>
+</rss>

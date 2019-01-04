@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Assist.Prof.Dr. Alper YILMAZ</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eternal bash history</title>
+      <link>/blog/2016/09/27/eternal-bash-history/</link>
+      <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
+      
+      <guid>/blog/2016/09/27/eternal-bash-history/</guid>
+      <description>After starting to use the bash, you quickly realize bash history is an invaluable asset. You can quickly search and find a previous command in order to remember when and what you have done. I was using a primitive way to archive the history with which I accumulated history of commands since 2008. The primitive setup has two parts. First part is a cron job:
+0 13 3,11,24 * * /bin/cat ~/.</description>
+    </item>
+    
+    <item>
+      <title>List of terminals with working folder names</title>
+      <link>/blog/2016/09/15/list-of-terminals-with-working-folder-names/</link>
+      <pubDate>Thu, 15 Sep 2016 12:00:00 +0300</pubDate>
+      
+      <guid>/blog/2016/09/15/list-of-terminals-with-working-folder-names/</guid>
+      <description>From time to time, I had many terminal tabs open and wanted to see the list of terminals along with working folder names. Finally, I fed up with the issue tried to find a solution. After fiddling with some code, here&amp;rsquo;s the function that I added to .bashrc file
+tty-list() { ps aux --sort=start_time | grep &amp;quot;pts/&amp;quot; | grep [b]ash | awk -F&amp;quot; +&amp;quot; &#39;{print $2&amp;quot;\t&amp;quot;$7}&#39; | while read PID PTS; do echo -n -e &amp;quot;$PTS&amp;quot;&amp;quot;\t&amp;quot;; readlink -f /proc/$PID/cwd; done ; }  In terminal, tty-list command lists the pts number and working folder name as shown below:</description>
+    </item>
+    
+    <item>
+      <title>Jekyll themes I want to try</title>
+      <link>/blog/2016/05/20/jekyll-themes-i-want-to-try/</link>
+      <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
+      
+      <guid>/blog/2016/05/20/jekyll-themes-i-want-to-try/</guid>
+      <description>&lt;p&gt;After going thru a &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34; target=&#34;_blank&#34;&gt;long list of themes&lt;/a&gt;, the following themes have some or all capabilities I&amp;rsquo;d like to have in a theme:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/blog/2016/04/20/academic-the-website-designer-for-hugo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/blog/2016/04/20/academic-the-website-designer-for-hugo/</guid>
+      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
+Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
+ View the documentation Ask a question Request a feature or report a bug Updating?</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2015/07/23/hello-r-markdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Transpose a matrix with perl nested map</title>
+      <link>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</link>
+      <pubDate>Thu, 07 Jul 2011 09:33:37 +0000</pubDate>
+      
+      <guid>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</guid>
+      <description>Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:
+$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 1	12 2	13 3	14 4	15 5	16  Now, let&amp;rsquo;s use a perl one-liner with nested maps to transpose the matrix:
+$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &amp;quot;\n&amp;quot;,map {$row=$_; join&amp;quot;\t&amp;quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &amp;quot;\n&amp;quot; }&#39; 1	2	3	4	5 12	13	14	15	16  I got the idea from this blog post, but I slightly modified it so that you don&amp;rsquo;t need to make a copy of the transposed array (to save memory)</description>
+    </item>
+    
+    <item>
+      <title>Extract intervals from an array of numbers</title>
+      <link>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</link>
+      <pubDate>Mon, 27 Jun 2011 06:58:02 +0000</pubDate>
+      
+      <guid>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.&lt;/p&gt;
+
+&lt;p&gt;More bioinformatic case: Let&amp;rsquo;s assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extract upstream region sequence with bedtools</title>
+      <link>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</link>
+      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
+      
+      <guid>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</guid>
+      <description>Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. bedtools is one of them and it&amp;rsquo;s easy to use and flexible. Most importantly you can integrate it with commandline pipes.
+In this post, I&amp;rsquo;ll be describing how to extract upstream region sequences with the help of bedtools. I&amp;rsquo;ll be using the following files in my sample:</description>
+    </item>
+    
+    <item>
+      <title>Plot one-liner generated data with gnuplot</title>
+      <link>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</link>
+      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
+      
+      <guid>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</guid>
+      <description>In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:
+very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist  If you&amp;rsquo;re interested in quickly see how this works, try something simple:</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to pick random sequences from fasta file</title>
+      <link>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
+      
+      <guid>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <description>In an earlier post we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?
+To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that rand(@array) returns index of a random element from that array.
+Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:</description>
+    </item>
+    
+    <item>
+      <title>Way more practical one-liners with perl5i</title>
+      <link>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</link>
+      <pubDate>Mon, 26 Apr 2010 23:48:05 +0000</pubDate>
+      
+      <guid>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</guid>
+      <description>perl5i project explains itself as &amp;ldquo;Perl 5 has a lot of warts, fix as much of it as possible in one pragma&amp;rdquo;. You can run your scripts with it by including perl5i (ie, use perl5i;). Best part is, it can be run at commandline with $ perl5i -e .
+perl5i includes Autobox module which lets you call methods on primitive datatypes such as scalars and arrays (eg. &amp;ldquo;hello world&amp;rdquo;-&amp;gt;print). This feature allows constructing very compact one-liners as shown below:</description>
+    </item>
+    
+    <item>
+      <title>gnuplot boxerror, barchart with error bars</title>
+      <link>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</link>
+      <pubDate>Wed, 14 Apr 2010 14:31:26 +0000</pubDate>
+      
+      <guid>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</guid>
+      <description>When I was trying to generate an image containing scatter-plot and a barchart with error bars, I got stuck with barchart part. There were no demos or samples that produces the desired output. So, I ended up figuring it out myself.
+Below is the gnuplot code, data sample and the output.
+set term png size 500,400 set output &amp;quot;boxerror-test.png&amp;quot; set boxwidth 0.5 set style fill transparent solid 0.5 noborder set yrange [0:100] set xrange [0:5] plot &amp;quot;boxerror-test.</description>
+    </item>
+    
+    <item>
+      <title>Most used commands in history</title>
+      <link>/blog/2010/04/08/most-used-commands-in-history/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      
+      <guid>/blog/2010/04/08/most-used-commands-in-history/</guid>
+      <description>Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.
+This approach considers pipes, process substitution by backticks or $() and multiple commands separated by ;
+Perl regular expression breaks up each line using | or &amp;lt;( or ; or ` or $( and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)
+history | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /\b((?</description>
+    </item>
+    
+    <item>
+      <title>Visualize Circos images with Seadragon</title>
+      <link>/blog/2010/04/02/visualize-circos-images-with-seadragon/</link>
+      <pubDate>Fri, 02 Apr 2010 16:34:41 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/visualize-circos-images-with-seadragon/</guid>
+      <description>Circos is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.
+The software is capable of producing very large images if desired, suitable for posters.
+Actually, we can create large images for viewing online, since it&amp;rsquo;s trivial to view them with Seadragon.
+Below is an example from Circos tutorial (I modified the config file to obtain large image) (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)</description>
+    </item>
+    
+    <item>
+      <title>One line statistics</title>
+      <link>/blog/2010/04/02/one-line-statistics/</link>
+      <pubDate>Fri, 02 Apr 2010 13:05:52 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/one-line-statistics/</guid>
+      <description>Let&amp;rsquo;s assume we have a file with five columns where first column is text and rest of the columns are numeric. How can we calculate the standard deviation (or other statistical functions) with a perl one-liner?
+We&amp;rsquo;ll use Statistics::Descriptive module.
+perl -MStatistics::Descriptive -ane &#39;BEGIN{our $stat = Statistics::Descriptive::Full-&amp;gt;new}; $stat-&amp;gt;add_data(@F[1..4]); print $stat-&amp;gt;standard_deviation,&amp;quot;\n&amp;quot;; $stat-&amp;gt;clear&#39; filename  $stat-&amp;gt;clear at the end was needed since data is added not assigned to $stat each time, so in order to prevent cumulative calculation, $stat variable should be cleared each time.</description>
+    </item>
+    
+    <item>
+      <title>View large images with Seadragon in personal pages</title>
+      <link>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</link>
+      <pubDate>Thu, 01 Apr 2010 03:50:00 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</guid>
+      <description>Maybe you already watched the video regarding Seadragon given at TED (sorry only low resolution version was available)
+  I just discovered that you can embed Seadragon into your own page. If you want to embed an image with enormous size, go to Seadragon page and paste URL of the image and it will create html embed script which you insert into your page&amp;rsquo;s html code.
+Below is the Seadragon view of space image of world at night: (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to process sequence files in stream</title>
+      <link>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <description>Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.
+perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename  OR
+cat filename | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39;  There are many more methods to use from Bio::Seq, such as revcom, translate, subseq(start,end), primary_id, desc, etc.
+Piped file does not need to be in Fasta format, there are many other formats (listed here) which SeqIO can parse successfully.</description>
+    </item>
+    
+    <item>
+      <title>Top ten occurrences with perl one-liner</title>
+      <link>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</link>
+      <pubDate>Tue, 30 Mar 2010 13:56:19 +0000</pubDate>
+      
+      <guid>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</guid>
+      <description>Very nice perl one-liner using map, sort and array range to show top ten occurrences
+Taken from Tech@Sakana blog
+perl -ane &#39;$c{$F[0]}++; END {print map {$_ . &amp;quot;\t-&amp;gt;\t&amp;quot; . $c{$_} . &amp;quot;\n&amp;quot;} (sort {$c{$b} &amp;lt;=&amp;gt; $c{$a}} keys %c)[0..9]}&#39; filename  Same thing can be achieved by:
+sort filename | uniq -c | sort -nr | head  But the perl one-liner demonstrates the nice combination of sort and map.</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to change table layout with Hash-of-Hash-of-Array</title>
+      <link>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
+      <pubDate>Thu, 25 Mar 2010 01:42:53 +0000</pubDate>
+      
+      <guid>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
+      <description>I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.
+In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.</description>
+    </item>
+    
+    <item>
+      <title>bash completion for scp</title>
+      <link>/blog/2010/03/10/bash-completion-for-scp/</link>
+      <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
+      
+      <guid>/blog/2010/03/10/bash-completion-for-scp/</guid>
+      <description>I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.
+If you are suffering from same symptom, please read this article for fix.</description>
+    </item>
+    
+    <item>
+      <title>Retrieve WP categories from commandline</title>
+      <link>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</link>
+      <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
+      
+      <guid>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</guid>
+      <description>Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..
+use WordPress::XMLRPC; my $o = WordPress::XMLRPC-&amp;gt;new({ username =&amp;gt; &#39;username&#39;, password =&amp;gt; &#39;password&#39;, proxy =&amp;gt; &#39;http://yourblog-address/xmlrpc.</description>
+    </item>
+    
+  </channel>
+</rss>

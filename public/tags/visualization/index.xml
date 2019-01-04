@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visualization on Assist.Prof.Dr. Alper YILMAZ</title>
+    <link>/tags/visualization/</link>
+    <description>Recent content in visualization on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sat, 16 Oct 2010 22:13:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plot one-liner generated data with gnuplot</title>
+      <link>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</link>
+      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
+      
+      <guid>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</guid>
+      <description>In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:
+very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist  If you&amp;rsquo;re interested in quickly see how this works, try something simple:</description>
+    </item>
+    
+    <item>
+      <title>gnuplot boxerror, barchart with error bars</title>
+      <link>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</link>
+      <pubDate>Wed, 14 Apr 2010 14:31:26 +0000</pubDate>
+      
+      <guid>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</guid>
+      <description>When I was trying to generate an image containing scatter-plot and a barchart with error bars, I got stuck with barchart part. There were no demos or samples that produces the desired output. So, I ended up figuring it out myself.
+Below is the gnuplot code, data sample and the output.
+set term png size 500,400 set output &amp;quot;boxerror-test.png&amp;quot; set boxwidth 0.5 set style fill transparent solid 0.5 noborder set yrange [0:100] set xrange [0:5] plot &amp;quot;boxerror-test.</description>
+    </item>
+    
+    <item>
+      <title>Visualize Circos images with Seadragon</title>
+      <link>/blog/2010/04/02/visualize-circos-images-with-seadragon/</link>
+      <pubDate>Fri, 02 Apr 2010 16:34:41 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/visualize-circos-images-with-seadragon/</guid>
+      <description>Circos is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.
+The software is capable of producing very large images if desired, suitable for posters.
+Actually, we can create large images for viewing online, since it&amp;rsquo;s trivial to view them with Seadragon.
+Below is an example from Circos tutorial (I modified the config file to obtain large image) (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)</description>
+    </item>
+    
+    <item>
+      <title>View large images with Seadragon in personal pages</title>
+      <link>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</link>
+      <pubDate>Thu, 01 Apr 2010 03:50:00 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</guid>
+      <description>Maybe you already watched the video regarding Seadragon given at TED (sorry only low resolution version was available)
+  I just discovered that you can embed Seadragon into your own page. If you want to embed an image with enormous size, go to Seadragon page and paste URL of the image and it will create html embed script which you insert into your page&amp;rsquo;s html code.
+Below is the Seadragon view of space image of world at night: (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)</description>
+    </item>
+    
+  </channel>
+</rss>
