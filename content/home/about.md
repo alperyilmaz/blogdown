@@ -21,7 +21,7 @@ education:
 ---
 # Biography
 
-Alper Yilmaz is an Assistant Professor at Yildiz Technical University. His research interest is in various topics in the field of bioinformatics. More specifically, he is interested in genome grammar (text mining in genome), next-generation sequencing analysis and analysis of gene expression via deep learning.
+Alper Yilmaz is an Assistant Professor at Yildiz Technical University. His research interest is in various topics in the field of bioinformatics. More specifically, he is interested in genome grammar (text mining in genome), next-generation sequencing analysis and analysis of gene expression via deep learning very much.
 
 *Short Bio*: Alper Yilmaz completed his bachelor in 2000 in field of Molecular Biology and Genetics. Then he started his PhD at the Ohio State Universtiy, studied translational control of HIV mRNAs. After completing his PhD in 2007 he studied on DNA words in genomes and next-generation sequencing analysis as a post-doc in same university. He started faculty position in 2012 and is interested in genome grammar, next-generation sequencing analysis and analysis of gene expression via deep learning.
 
