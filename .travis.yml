@@ -5,8 +5,8 @@
 
 #language: go
 before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y libstdc++6
+  - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
+  - sudo dpkg --force-all -i libstdc++6
 install: 
   - wget -q https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_extended_0.55.6_Linux-64bit.deb
   - sudo dpkg -i hugo_extended_0.55.6_Linux-64bit.deb
