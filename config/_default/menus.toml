@@ -15,20 +15,32 @@
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "/project/"
   weight = 30
 
 [[main]]
   name = "Publications"
   identifier = "publications"
-  url = "#featured"
+  url = "/publication/"
   weight = 40
+  
+[[main]]
+ name = "thesis"
+ parent = "publications"
+ url = "/publication/thesis/"
+ weight = 44
 
 [[main]]
-  name = "Abstracts"
-  url = "/abstract/"
-  weight = 45
-
+ name = "journal articles"
+ parent = "publications"
+ url = "/publication/journal-articles/"
+ weight = 41
+ 
+ [[main]]
+ name = "conference abstracts"
+ parent = "publications"
+ url = "/publication/conference-abstract/"
+ weight = 42
 
 [[main]]
   name = "Tutorials"

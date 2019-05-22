@@ -6,7 +6,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
   dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
   Vestibulum sit amet erat at nulla eleifend gravida.
-draft:true
+draft: true
 authors:
 - admin
 date: "2019-04-07T00:00:00+03:00"
