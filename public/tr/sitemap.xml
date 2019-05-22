@@ -1,49 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
-      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
-    
-      <loc>/tr/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tr/author/admin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/author/admin/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tr/" hreflang="tr"/>
-      <xhtml:link rel="alternate" href="/" hreflang="en"/>
-    
-      <loc>/tr/</loc>
-      <lastmod>2018-09-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tr/authors/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/authors/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tr/publication_types/" hreflang="tr"/>
-      <xhtml:link rel="alternate" href="/publication_types/" hreflang="en"/>
-    
-      <loc>/tr/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tr/author/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/author/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tr/tags/" hreflang="tr"/>
-      <xhtml:link rel="alternate" href="/tags/" hreflang="en"/>
-    
-      <loc>/tr/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tr/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tr/publication_types/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tr/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tr/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tr/authors/admin/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/authors/admin/"
+                />
+  </url>
   
 </urlset>

@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2019 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Plain Markdown</title>
+      <link>/blog/2019/05/07/plain-markdown/</link>
+      <pubDate>Tue, 07 May 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2019/05/07/plain-markdown/</guid>
+      <description>Plain Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+library(tidyverse)  Here&amp;rsquo;s the logo</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/blog/2019/02/05/display-jupyter-notebooks-with-academic/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/05/display-jupyter-notebooks-with-academic/</guid>
+      <description>Learn how to blog in Academic using Jupyter notebooks</description>
+    </item>
     
     <item>
       <title>Eternal bash history</title>
@@ -42,14 +62,12 @@ tty-list() { ps aux --sort=start_time | grep &amp;quot;pts/&amp;quot; | grep [b]
     </item>
     
     <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/blog/2016/04/20/academic-the-website-designer-for-hugo/</link>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/blog/2016/04/20/academic-the-website-builder-for-hugo/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/blog/2016/04/20/academic-the-website-designer-for-hugo/</guid>
-      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
-Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
- View the documentation Ask a question Request a feature or report a bug Updating?</description>
+      <guid>/blog/2016/04/20/academic-the-website-builder-for-hugo/</guid>
+      <description>Create a beautifully simple website in under 10 minutes.</description>
     </item>
     
     <item>

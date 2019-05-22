@@ -1,7 +1,7 @@
 ---
 date: "2018-09-09T00:00:00+03:00"
 draft: false
-linktitle: Example Page
+linktitle: Example Link
 menu:
   tutorial:
     parent: Example Topic

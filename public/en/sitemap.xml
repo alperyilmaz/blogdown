@@ -1,484 +1,1148 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>/tutorial/example/</loc>
-      <lastmod>2018-09-09T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00+03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/tutorial/</loc>
-      <lastmod>2018-09-09T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/talk/example/</loc>
-      <lastmod>2017-01-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/example2/</loc>
+    <lastmod>2020-06-01T13:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/blog/2019/05/07/plain-markdown/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2016/09/27/eternal-bash-history/</loc>
-      <lastmod>2016-09-27T00:26:05+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2016/09/15/list-of-terminals-with-working-folder-names/</loc>
-      <lastmod>2016-09-15T12:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2016/05/20/jekyll-themes-i-want-to-try/</loc>
-      <lastmod>2016-05-20T01:10:57+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/admin/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/internal-project/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2019-05-07T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2016/04/20/academic-the-website-designer-for-hugo/</loc>
-      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2019-04-27T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/person-re-id/</loc>
-      <lastmod>2015-09-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/deep-learning-genes/</loc>
+    <lastmod>2019-04-27T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2015/07/23/hello-r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-04-27T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2019-04-07T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</loc>
-      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</loc>
-      <lastmod>2011-06-27T06:58:02+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-04-07T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</loc>
-      <lastmod>2011-03-06T08:40:36+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-04-07T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</loc>
-      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/source-themes/</loc>
+    <lastmod>2019-04-07T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</loc>
-      <lastmod>2010-07-15T08:03:53+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/blog/2019/02/05/display-jupyter-notebooks-with-academic/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</loc>
-      <lastmod>2010-04-26T23:48:05+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</loc>
-      <lastmod>2010-04-14T14:31:26+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/08/most-used-commands-in-history/</loc>
-      <lastmod>2010-04-08T09:11:53+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tutorial/example/</loc>
+    <lastmod>2018-09-09T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/02/visualize-circos-images-with-seadragon/</loc>
-      <lastmod>2010-04-02T16:34:41+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tutorial/</loc>
+    <lastmod>2018-09-09T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/02/one-line-statistics/</loc>
-      <lastmod>2010-04-02T13:05:52+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/blog/2016/09/27/eternal-bash-history/</loc>
+    <lastmod>2016-09-27T00:26:05+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</loc>
-      <lastmod>2010-04-01T03:50:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/commandline/</loc>
+    <lastmod>2016-09-27T00:26:05+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</loc>
-      <lastmod>2010-04-01T02:43:57+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/blog/2016/09/15/list-of-terminals-with-working-folder-names/</loc>
+    <lastmod>2016-09-15T12:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</loc>
-      <lastmod>2010-03-30T13:56:19+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/blog/2016/05/20/jekyll-themes-i-want-to-try/</loc>
+    <lastmod>2016-05-20T01:10:57+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</loc>
-      <lastmod>2010-03-25T01:42:53+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2016-05-20T01:10:57+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/03/10/bash-completion-for-scp/</loc>
-      <lastmod>2010-03-10T16:30:03+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/metabolic-networks/</loc>
+    <lastmod>2016-04-27T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</loc>
-      <lastmod>2010-01-13T19:08:15+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/word-vectors/</loc>
+    <lastmod>2016-04-27T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/blog/2016/04/20/academic-the-website-builder-for-hugo/</loc>
+    <lastmod>2019-04-17T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2015-09-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/" hreflang="tr"/>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/blog/2015/07/23/hello-r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/publication_types/" hreflang="tr"/>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/alper-yilmaz/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/andrea-i-doseff/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/slides/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/erich-grotewold/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/slides/example-slides/</loc>
-    </url>
-    
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/tags/" hreflang="tr"/>
-    
-      <loc>/tags/</loc>
-      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/maria-katherine-mejia-guerra/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/bioinformatics/</loc>
-      <lastmod>2011-03-06T08:40:36+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/pablo-pareja-tobes/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/commandline/</loc>
-      <lastmod>2016-09-27T00:26:05+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/wei-li/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/gnuplot/</loc>
-      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/wilberforce-zachary-ouma/</loc>
+    <lastmod>2015-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/jekyll/</loc>
-      <lastmod>2016-05-20T01:10:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/linux/</loc>
-      <lastmod>2010-04-08T09:11:53+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/abstract/</loc>
+    <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/one-liner/</loc>
-      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/abstract/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/perl/</loc>
-      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/robert-ford/</loc>
+    <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/arti-parihar/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/bledi-brahimaj/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/visualization/</loc>
-      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/daniel-arango/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/kengo-morohashi/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/kouji-kuramochi/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/arango-2013-id-224/</loc>
+    <lastmod>2013-06-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/devin-oconnor/</loc>
+    <lastmod>2012-08-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/nathalie-bolduc/</loc>
+    <lastmod>2012-08-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/sarah-hake/</loc>
+    <lastmod>2012-08-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/bolduc-2012-id-223/</loc>
+    <lastmod>2012-08-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/morohashi-2012-id-222/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/antje-feller/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/bruna-carvalho/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/eduardo-rodriguez/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/julia-emiliani/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lorena-falcone-ferreyra/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lucille-pourcel/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/maria-lorena-falcone-ferreyra/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/mar%C3%ADa-isabel-casas/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/mar%C3%ADa-katherine-mej%C3%ADa-guerra/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/michael-mcmullen/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/paula-casati/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/silvina-pellegrinet/</loc>
+    <lastmod>2012-07-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/alan-cochrane/</loc>
+    <lastmod>2012-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/amit-sharma/</loc>
+    <lastmod>2012-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/kathleen-boris-lawrie/</loc>
+    <lastmod>2012-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/kim-marsh/</loc>
+    <lastmod>2012-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/sharma-2012-id-221/</loc>
+    <lastmod>2012-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/</loc>
+    <lastmod>2011-07-07T09:33:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/one-liner/</loc>
+    <lastmod>2011-07-07T09:33:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/perl/</loc>
+    <lastmod>2011-07-07T09:33:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</loc>
+    <lastmod>2011-06-27T06:58:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2011/03/06/extract-upstream-region-sequence-with-bedtools/</loc>
+    <lastmod>2011-03-06T08:40:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bioinformatics/</loc>
+    <lastmod>2011-03-06T08:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/6/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2011-id-115/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/bremen-l-braun/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/carol-m-lushbough/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/carolyn-j-lawrence/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/carson-m-andorf/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/chase-nelson/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/corina-antonescu/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/damon-lisch/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/darwin-a-campbell/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/destri-andorf/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/donald-r-mccarty/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/douglas-m-jennewein/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/lichtenberg-2011-id-219/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eric-stockinger/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ethalinda-k-s-cannon/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/jack-m-gardiner/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/jens-lichtenberg/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/john-quackenbush/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/karen-e-koch/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/kyle-kurz/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lisa-c-harper/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lonnie-r.-welch/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lonnie-welch/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/mary-l-schaeffer/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/cannon-2011-id-220/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sateesh-kodavali/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/scott-m-birkett/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/taner-z-sen/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/thomas-bitterman/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/valentin-antonescu/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/xiaoyu-liang/</loc>
+    <lastmod>2011-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</loc>
+    <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gnuplot/</loc>
+    <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/visualization/</loc>
+    <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</loc>
+    <lastmod>2010-07-15T08:03:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</loc>
+    <lastmod>2010-04-26T23:48:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</loc>
+    <lastmod>2010-04-14T14:31:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/08/most-used-commands-in-history/</loc>
+    <lastmod>2010-04-08T09:11:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2010-04-08T09:11:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/02/visualize-circos-images-with-seadragon/</loc>
+    <lastmod>2010-04-02T16:34:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/02/one-line-statistics/</loc>
+    <lastmod>2010-04-02T13:05:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</loc>
+    <lastmod>2010-04-01T03:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</loc>
+    <lastmod>2010-04-01T02:43:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</loc>
+    <lastmod>2010-03-30T13:56:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</loc>
+    <lastmod>2010-03-25T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/03/10/bash-completion-for-scp/</loc>
+    <lastmod>2010-03-10T16:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/unknown-2010-id-217/</loc>
+    <lastmod>2010-02-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</loc>
+    <lastmod>2010-01-13T19:08:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2010-id-218/</loc>
+    <lastmod>2010-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/frank-drews/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/joshua-d-welch/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/klaus-ecker/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/lonnie-r-welch/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/matt-geisler/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/stephen-s-lee/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/lichtenberg-2009-id-214/</loc>
+    <lastmod>2009-10-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/lichtenberg-2009-id-216/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dazhang-gu/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2009-id-215/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/edwin-jacox/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/joshua-d.-welch/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/laura-elnitski/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/mohit-alam/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/paul-morris/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/pooja-m.-majmudar/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ramana-davuluri/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/sarah-wyatt/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/saranyan-palaniswamy/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/stephen-s.-lee/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/susan-evans/</loc>
+    <lastmod>2009-06-01T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/bernardo-garcia-fuentes/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-janies/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2009-id-213/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/glaucia-mendes-souza/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/john-gray/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/milton-y-nishiyama/</loc>
+    <lastmod>2009-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/a-yilmaz/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/d-h-thamm/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/e-a-mcniel/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/k-boris-lawrie/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/k-s-nadella/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/m-v-p-nadella/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/n-k-thudi/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/nadella-2008-id-212/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/t-j-rosol/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/w-c-kisseberth/</loc>
+    <lastmod>2008-03-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/cheryl-bolinger/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/jianxin-ye/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/mary-forget/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/melinda-butsch-kovacic/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/patrick-l-green/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/bolinger-2007-id-211/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/soledad-fernandez/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/tiffiney-roberts-hartman/</loc>
+    <lastmod>2007-01-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2006-id-210/</loc>
+    <lastmod>2006-02-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/michael-d-lairmore/</loc>
+    <lastmod>2006-02-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/yilmaz-2006-id-209/</loc>
+    <lastmod>2006-01-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/admin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/author/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="/tr/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/"
+                />
+  </url>
   
 </urlset>

@@ -1,14 +1,411 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assist.Prof.Dr. Alper YILMAZ on Assist.Prof.Dr. Alper YILMAZ</title>
+    <title>Assist.Prof.Dr. Alper YILMAZ</title>
     <link>/</link>
-    <description>Recent content in Assist.Prof.Dr. Alper YILMAZ on Assist.Prof.Dr. Alper YILMAZ</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Assist.Prof.Dr. Alper YILMAZ</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0300</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0300</pubDate>
+      
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example2/</link>
+      <pubDate>Mon, 01 Jun 2020 13:00:00 +0300</pubDate>
+      
+      <guid>/talk/example2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plain Markdown</title>
+      <link>/blog/2019/05/07/plain-markdown/</link>
+      <pubDate>Tue, 07 May 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2019/05/07/plain-markdown/</guid>
+      <description>
+
+&lt;h1 id=&#34;plain-markdown&#34;&gt;Plain Markdown&lt;/h1&gt;
+
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(tidyverse)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the logo&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.guidingtech.com/media/assets/WordPress-Import/2014/01/markdown-logo2-300x201.png&#34; alt=&#34;Logo&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning Gene Expression</title>
+      <link>/project/deep-learning-genes/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/project/deep-learning-genes/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/blog/2019/02/05/display-jupyter-notebooks-with-academic/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/05/display-jupyter-notebooks-with-academic/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-new-blog-post-as-usual-https-sourcethemes-com-academic-docs-managing-content-create-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34; target=&#34;_blank&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
+hugo new  --kind post post/my-post
+cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
+&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir=.
+
+# Copy the contents of Untitled.md and append it to index.md:
+cat Untitled.md | tee -a index.md
+
+# Remove the temporary file:
+rm Untitled.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/example/</guid>
+      <description>
+
+&lt;h2 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;quotation-example&#34;&gt;Quotation example&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&amp;rdquo; &amp;ndash; John Doe&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;highlight-r&#34;&gt;Highlight R&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;library(tidyverse)
+library(purrr)
+
+iris %&amp;gt;% 
+  mutate(row_mean = pmap_dbl(select_if(., is.numeric), 
+                             lift_vd(mean)))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;highlight-python&#34;&gt;Highlight Python&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import urllib.request
+
+url = &amp;quot;https://s3-us-west-2.amazonaws.com/veri-analizi/tcga_sample_save.npz&amp;quot;
+urllib.request.urlretrieve(url, &#39;tcga_sample_save.npz&#39;)  
+
+with np.load(&#39;tcga_sample_save.npz&#39;) as data:
+    x_train = data[&#39;x_train&#39;]
+    y_train = data[&#39;y_train&#39;]
+    x_test = data[&#39;x_test&#39;]
+    y_test = data[&#39;y_test&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Example Page</title>
@@ -27,40 +424,6 @@
 &lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0300</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0300</pubDate>
-      
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
@@ -156,20 +519,11 @@ pts/9   /home/alper/Documents/blog-github/website
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <link>/project/metabolic-networks/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/project/internal-project/</guid>
+      <guid>/project/metabolic-networks/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -183,18 +537,38 @@ pts/9   /home/alper/Documents/blog-github/website
     </item>
     
     <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/blog/2016/04/20/academic-the-website-designer-for-hugo/</link>
+      <title>Internal Project</title>
+      <link>/project/word-vectors/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/project/word-vectors/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/blog/2016/04/20/academic-the-website-builder-for-hugo/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/blog/2016/04/20/academic-the-website-designer-for-hugo/</guid>
+      <guid>/blog/2016/04/20/academic-the-website-builder-for-hugo/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Follow our easy &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34; target=&#34;_blank&#34;&gt;step by step guide&lt;/a&gt; to learn how to build your own free website with Academic. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the personal demo&lt;/a&gt; or the &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;business demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup Academic&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34; target=&#34;_blank&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
@@ -211,22 +585,42 @@ pts/9   /home/alper/Documents/blog-github/website
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Key features:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
 
-&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
+&lt;p&gt;Academic comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
 
+&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
 
 
 &lt;div class=&#34;gallery&#34;&gt;
@@ -240,7 +634,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -256,9 +649,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-1950s.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -266,7 +661,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -282,9 +676,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-apogee.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -292,7 +688,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -308,9 +703,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-coffee-playfair.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -318,7 +715,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -334,9 +730,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-cupcake.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -344,7 +742,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -360,9 +757,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-dark.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -370,7 +769,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -386,9 +784,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-default.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -396,7 +796,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -412,9 +811,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-forest.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -422,7 +823,6 @@ pts/9   /home/alper/Documents/blog-github/website
     
     
     
-      
     
       
     
@@ -438,9 +838,11 @@ pts/9   /home/alper/Documents/blog-github/website
     
       
     
+      
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-designer-for-hugo/gallery/theme-ocean.png&#34; alt=&#34;&#34;&gt;
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;/blog/2016/04/20/academic-the-website-builder-for-hugo/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -459,92 +861,19 @@ pts/9   /home/alper/Documents/blog-github/website
 &lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
-&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
-&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
-&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
-&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
-
-&lt;p&gt;Prerequisites:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd My_Website
-git submodule update --init --recursive
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
 
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
-
-&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
-
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
-
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
@@ -555,12 +884,23 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0300</pubDate>
       
-      <guid>/publication/person-re-id/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>/publication/journal-article/</guid>
+      <description>
+
+&lt;h1 id=&#34;testing-markdown&#34;&gt;testing markdown&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.&lt;/p&gt;
 </description>
     </item>
     
@@ -616,13 +956,62 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
+      <title>Important biological information uncovered in previously unaligned reads from chromatin immunoprecipitation experiments (ChIP-Seq).</title>
+      <link>/publication/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/abstract/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0300</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>/abstract/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Molecular basis for the action of a dietary flavonoid revealed by the comprehensive identification of apigenin human targets.</title>
+      <link>/publication/arango-2013-id-224/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/arango-2013-id-224/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unraveling the KNOTTED1 regulatory network in maize meristems.</title>
+      <link>/publication/bolduc-2012-id-223/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/bolduc-2012-id-223/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A genome-wide regulatory framework identifies maize pericarp color1 controlled genes.</title>
+      <link>/publication/morohashi-2012-id-222/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/morohashi-2012-id-222/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thriving under stress: selective translation of HIV-1 structural protein mRNA during Vpr-mediated impairment of eIF4E translation activity.</title>
+      <link>/publication/sharma-2012-id-221/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/sharma-2012-id-221/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -726,6 +1115,685 @@ TGATG
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;flankBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
 &lt;/code&gt;&lt;/pre&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>AGRIS: the Arabidopsis Gene Regulatory Information Server, an update.</title>
+      <link>/publication/yilmaz-2011-id-115/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/yilmaz-2011-id-115/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encyclopedias of DNA Elements for Plant Genomes</title>
+      <link>/publication/lichtenberg-2011-id-219/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/lichtenberg-2011-id-219/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POPcorn: An Online Resource Providing Access to Distributed and Diverse Maize Project Data.</title>
+      <link>/publication/cannon-2011-id-220/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/cannon-2011-id-220/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plot one-liner generated data with gnuplot</title>
+      <link>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</link>
+      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
+      
+      <guid>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll demonstrate how to use gnuplot in a one-liner. We&amp;rsquo;ll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we&amp;rsquo;ll use the following template:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;very-complicated-data-generating-commands | sed -e &amp;quot;1i\plot &#39;-&#39; &amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in quickly see how this works, try something simple:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;seq 1 10 | sed -e &amp;quot;1i\plot &#39;-&#39;&amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Before sed command, you can write as complicated as possible command to generate data and inside sed command you can put long gnuplot commands to obtain graphs. Let&amp;rsquo;s see the counts of most used 20 commands from history (mentioned in an &lt;a href=&#34;/blog/2010/04/08/most-used-commands-in-history/&#34; target=&#34;_blank&#34;&gt;earlier post&lt;/a&gt; with bar chart.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot -persist
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Resulting image looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/history-top-occur-graph550x350.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to save the output in png format, what you do is simply add the command &lt;code&gt;set term png size 600,300&lt;/code&gt; to your one-liner. I chose width 600px and height 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat ~/.bash_history|grep -v &amp;quot;^#&amp;quot; | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /^.*?(\w+)\b/i }&#39; | sort | uniq -c | sort -nr | head -20 | awk &#39;{print $2&amp;quot;\t&amp;quot;$1}&#39; | sed -e &amp;quot;1i\set term png size 600,350\nset boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x &#39;-%s&#39;\nplot &#39;-&#39; using 2:xticlabels(1) with boxes notitle&amp;quot; | gnuplot &amp;gt; sample_image.png
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to pick random sequences from fasta file</title>
+      <link>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</link>
+      <pubDate>Thu, 15 Jul 2010 08:03:53 +0000</pubDate>
+      
+      <guid>/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/</guid>
+      <description>&lt;p&gt;In an earlier &lt;a href=&#34;{{ ref &amp;quot;post/perl-one-liner-to-process-sequence-files-in-stream.md&amp;quot; }}&#34; target=&#34;_blank&#34;&gt;post&lt;/a&gt; we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let&amp;rsquo;s do more with this capability. What about selecting random sequences from a fasta file?&lt;/p&gt;
+
+&lt;p&gt;To achieve that, we&amp;rsquo;ll load the fasta file contents into a hash and then utilize the fact that &lt;code&gt;rand(@array)&lt;/code&gt; returns index of a random element from that array.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s pick 100 random sequences from a fasta file with one-liner:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;.. fasta file stream .. | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){ $hash{$myseq-&amp;gt;id}=$myseq-&amp;gt;seq }; END{@ids = keys %hash; foreach (1..100){my $index=rand(@ids); print &amp;quot;&amp;gt;&amp;quot;,$ids[$index],&amp;quot;\n&amp;quot;,$hash{$ids[$index]},&amp;quot;\n&amp;quot; } }&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: If this one-liner throws problem about first sequence, please indicate the format of the input. Since read ahead is not possible in a pipe, the format might not be guessed correctly. So, please update the one-liner with this: &lt;code&gt;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN, -format=&amp;gt;&amp;quot;fasta&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Way more practical one-liners with perl5i</title>
+      <link>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</link>
+      <pubDate>Mon, 26 Apr 2010 23:48:05 +0000</pubDate>
+      
+      <guid>/blog/2010/04/26/way-more-practical-one-liners-with-perl5i/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://search.cpan.org/dist/perl5i/lib/perl5i.pm&#34; target=&#34;_blank&#34;&gt;perl5i&lt;/a&gt; project explains itself as &amp;ldquo;Perl 5 has a lot of warts, fix as much of it as possible in one pragma&amp;rdquo;. You can run your scripts with it by including perl5i (ie, use perl5i;). Best part is, it can be run at commandline with &lt;code&gt;$ perl5i -e&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;perl5i includes &lt;a href=&#34;http://search.cpan.org/~swalters/autobox-Core-1.2/&#34; target=&#34;_blank&#34;&gt;Autobox module&lt;/a&gt; which lets you call methods on primitive datatypes such as scalars and arrays (eg. &amp;ldquo;hello world&amp;rdquo;-&amp;gt;print). This feature allows constructing very compact one-liners as shown below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39;my @arr = ( 1 .. 10 ); @arr-&amp;gt;map(sub {$_ ** 4 })-&amp;gt;grep(sub { $_ &amp;gt; 3 })-&amp;gt;sum-&amp;gt;say&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Explanation: calculate to the 4th power for each element of @arr. Of those 4th power numbers, filter out the ones smaller than 3. Then sum up the new array and print the result.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39;my @test=(1,2,3,4); my @compare=(2,4,6); @test-&amp;gt;intersect(\@compare)-&amp;gt;size-&amp;gt;concat(&amp;quot;\t&amp;quot;)-&amp;gt;print&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Explanation: Find the intersection of two arrays (assigned to new array) and add tab character to size of (intersection) array and then print it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl5i -e &#39; my $hashref = { foo =&amp;gt; 10, bar =&amp;gt; 20, baz =&amp;gt; 30, quux =&amp;gt; 40 }; $hashref-&amp;gt;values-&amp;gt;sort-&amp;gt;join(&amp;quot;-&amp;quot;)-&amp;gt;say&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Explanation: sort the values of hash and print them by joining with &amp;ldquo;-&amp;rdquo; character.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gnuplot boxerror, barchart with error bars</title>
+      <link>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</link>
+      <pubDate>Wed, 14 Apr 2010 14:31:26 +0000</pubDate>
+      
+      <guid>/blog/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/</guid>
+      <description>&lt;p&gt;When I was trying to generate an image containing scatter-plot and a barchart with error bars, I got stuck with barchart part. There were no demos or samples that produces the desired output. So, I ended up figuring it out myself.&lt;/p&gt;
+
+&lt;p&gt;Below is the gnuplot code, data sample and the output.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-gnuplot&#34;&gt;set term png size 500,400
+set output &amp;quot;boxerror-test.png&amp;quot;
+set boxwidth 0.5
+set style fill transparent solid 0.5 noborder
+set yrange [0:100]
+set xrange [0:5]
+plot &amp;quot;boxerror-test.data&amp;quot; using 1:2:3:xticlabels(4) w boxerror lc rgb &amp;quot;#444444&amp;quot; lw 1.5 title &amp;quot;BoxerrorTest&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sample data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1	25	3	A
+2	33	5	B
+3	50	2	C
+4	12	0.5	D
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the final output:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/boxerror-test.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ideally, I was trying to plot the following data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;A       25      3
+B       33      5
+C       50      2
+D       12      0.5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I wasn&amp;rsquo;t able to use first column directly as data. So, first column is actually numbers and fourth column provides the xticlabels.&lt;/p&gt;
+
+&lt;p&gt;If your gnuplot version is less than 4.4, transparency won&amp;rsquo;t work, in that case remove &amp;ldquo;transparent&amp;rdquo; from set style line.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most used commands in history</title>
+      <link>/blog/2010/04/08/most-used-commands-in-history/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      
+      <guid>/blog/2010/04/08/most-used-commands-in-history/</guid>
+      <description>&lt;p&gt;Most of the &amp;ldquo;most used commands&amp;rdquo; approaches does not consider pipes and other complexities.&lt;/p&gt;
+
+&lt;p&gt;This approach considers pipes, process substitution by backticks or &lt;code&gt;$()&lt;/code&gt; and multiple commands separated by &lt;code&gt;;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Perl regular expression breaks up each line using &lt;code&gt;|&lt;/code&gt; or &lt;code&gt;&amp;lt;(&lt;/code&gt; or &lt;code&gt;;&lt;/code&gt; or ` or &lt;code&gt;$(&lt;/code&gt; and picks the first word (excluding &amp;ldquo;do&amp;rdquo; in case of for loops)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;history | perl -F&amp;quot;\||&amp;lt;\(|;|\`|\\$\(&amp;quot; -alne &#39;foreach (@F) { print $1 if /\b((?!do)[a-z]+)\b/i }&#39; | sort | uniq -c | sort -nr | head
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s generate a fake history file which looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1  command file | command file | command | command
+2  command &amp;lt;(command file) &amp;lt;(command file)
+3  command file &amp;gt; file
+4  for i in `command file`; do command file; command file; done | command
+5  for i in $(command file); do command file; command file | command; done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This approach successfully counts 16 occurrences of &amp;ldquo;command&amp;rdquo; and 2 occurrences of &amp;ldquo;for&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Note: if you are using lots of perl one-liners, the perl commands/functions will be counted as well in this approach, since semicolon is used as a separator&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualize Circos images with Seadragon</title>
+      <link>/blog/2010/04/02/visualize-circos-images-with-seadragon/</link>
+      <pubDate>Fri, 02 Apr 2010 16:34:41 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/visualize-circos-images-with-seadragon/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://mkweb.bcgsc.ca/circos/&#34; target=&#34;_blank&#34;&gt;Circos&lt;/a&gt; is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.&lt;/p&gt;
+
+&lt;p&gt;The software is capable of producing very large images if desired, suitable for posters.&lt;/p&gt;
+
+&lt;p&gt;Actually, we can create large images for viewing online, since it&amp;rsquo;s trivial to view them with Seadragon.&lt;/p&gt;
+
+&lt;p&gt;Below is an example from Circos tutorial (I modified the config file to obtain large image) (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;http://seadragon.com/embed/yhz.js?width=auto&amp;amp;height=400px&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Original image is located &lt;a href=&#34;/img/circos-tutorial-huge.png&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;PS: Author of Circos, Martin Krzywinski has more interesting software listed in &lt;a href=&#34;http://mkweb.bcgsc.ca/&#34; target=&#34;_blank&#34;&gt;his page&lt;/a&gt;. And his lecture notes on &lt;a href=&#34;http://mkweb.bcgsc.ca/perlworkshop/index.mhtml?code=2.1.2.4&#34; target=&#34;_blank&#34;&gt;Data Mining and Analysis at the Command Line&lt;/a&gt; is worth checking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One line statistics</title>
+      <link>/blog/2010/04/02/one-line-statistics/</link>
+      <pubDate>Fri, 02 Apr 2010 13:05:52 +0000</pubDate>
+      
+      <guid>/blog/2010/04/02/one-line-statistics/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s assume we have a file with five columns where first column is text and rest of the columns are numeric. How can we calculate the standard deviation (or other statistical functions) with a perl one-liner?&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll use &lt;a href=&#34;http://search.cpan.org/~shlomif/Statistics-Descriptive-3.0100/lib/Statistics/Descriptive.pm&#34; target=&#34;_blank&#34;&gt;Statistics::Descriptive&lt;/a&gt; module.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MStatistics::Descriptive -ane &#39;BEGIN{our $stat = Statistics::Descriptive::Full-&amp;gt;new}; $stat-&amp;gt;add_data(@F[1..4]); print $stat-&amp;gt;standard_deviation,&amp;quot;\n&amp;quot;; $stat-&amp;gt;clear&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;$stat-&amp;gt;clear&lt;/code&gt; at the end was needed since data is added not assigned to $stat each time, so in order to prevent cumulative calculation, &lt;code&gt;$stat&lt;/code&gt; variable should be cleared each time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>View large images with Seadragon in personal pages</title>
+      <link>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</link>
+      <pubDate>Thu, 01 Apr 2010 03:50:00 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/view-large-images-with-seadragon-in-personal-pages/</guid>
+      <description>&lt;p&gt;Maybe you already watched the video regarding Seadragon given at TED (sorry only low resolution version was available)&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/PKwTurQgiak&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;I just discovered that you can embed Seadragon into your own page. If you want to embed an image with enormous size, go to &lt;a href=&#34;http://seadragon.com/&#34; target=&#34;_blank&#34;&gt;Seadragon&lt;/a&gt; page and paste URL of the image and it will create html embed script which you insert into your page&amp;rsquo;s html code.&lt;/p&gt;
+
+&lt;p&gt;Below is the Seadragon view of space image of world at night: (*EDIT: Since the seadragon page was very slow to respond, I just included the embed URL*S)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;http://seadragon.com/embed/82q.js?width=auto&amp;amp;height=400px&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Original image is located &lt;a href=&#34;http://techlab.scherdan.com/albums/satellite/NASA_satellite_photo_of_Earth_at_night_high_res_city_lights.jpg&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s another example (satellite image of Turkey):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;http://seadragon.com/embed/yf4.js?width=auto&amp;amp;height=400px&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Original image is located &lt;a href=&#34;http://veimages.gsfc.nasa.gov/6878/Turkey.A2004096.0830.250m.jpg&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to process sequence files in stream</title>
+      <link>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</link>
+      <pubDate>Thu, 01 Apr 2010 02:43:57 +0000</pubDate>
+      
+      <guid>/blog/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/</guid>
+      <description>&lt;p&gt;Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39; &amp;lt; filename 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;OR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cat filename | perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are many more methods to use from &lt;a href=&#34;http://doc.bioperl.org/releases/bioperl-current/bioperl-live/Bio/Seq.html&#34; target=&#34;_blank&#34;&gt;Bio::Seq&lt;/a&gt;, such as revcom, translate, subseq(start,end), primary_id, desc, etc.&lt;/p&gt;
+
+&lt;p&gt;Piped file does not need to be in Fasta format, there are many other formats (listed &lt;a href=&#34;http://www.bioperl.org/wiki/HOWTO:SeqIO&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) which SeqIO can parse successfully.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;UPDATE&lt;/em&gt;: If you are using this one-liner in a pipe, you might need to declare the format so that the stream is processed correctly. Also, in order to retrieve Bio::Seq methods, please use &amp;ldquo;-&amp;gt;seq&amp;rdquo; to access the final sequence.&lt;/p&gt;
+
+&lt;p&gt;Considering all these updates, the one-liner should look like this:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -MBio::SeqIO -e &#39;$seq=Bio::SeqIO-&amp;gt;new(-fh =&amp;gt; \*STDIN,-format=&amp;gt;&amp;quot;fasta&amp;quot;);while ($myseq=$seq-&amp;gt;next_seq){print $myseq-&amp;gt;id,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;length,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;seq,&amp;quot;\t&amp;quot;,$myseq-&amp;gt;translate-&amp;gt;seq,&amp;quot;\n&amp;quot;;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Top ten occurrences with perl one-liner</title>
+      <link>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</link>
+      <pubDate>Tue, 30 Mar 2010 13:56:19 +0000</pubDate>
+      
+      <guid>/blog/2010/03/30/top-ten-occurrences-with-perl-one-liner/</guid>
+      <description>&lt;p&gt;Very nice perl one-liner using map, sort and array range to show top ten occurrences&lt;/p&gt;
+
+&lt;p&gt;Taken from &lt;a href=&#34;http://www.sakana.fr/blog/2010/03/02/perl-counting-occurences-of-ip-addresses-in-apache-logs/&#34; target=&#34;_blank&#34;&gt;Tech@Sakana blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -ane &#39;$c{$F[0]}++; END {print map {$_ . &amp;quot;\t-&amp;gt;\t&amp;quot; . $c{$_} . &amp;quot;\n&amp;quot;} (sort {$c{$b} &amp;lt;=&amp;gt; $c{$a}} keys %c)[0..9]}&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Same thing can be achieved by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sort filename | uniq -c | sort -nr | head
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But the perl one-liner demonstrates the nice combination of sort and map.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>perl one-liner to change table layout with Hash-of-Hash-of-Array</title>
+      <link>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</link>
+      <pubDate>Thu, 25 Mar 2010 01:42:53 +0000</pubDate>
+      
+      <guid>/blog/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array/</guid>
+      <description>&lt;p&gt;I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.&lt;/p&gt;
+
+&lt;p&gt;In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.&lt;/p&gt;
+
+&lt;table style=&#34;border-collapse: collapse;&#34; border=&#34;1&#34; cellpadding=&#34;2&#34; cellspacing=&#34;2&#34;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Interpro
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      kinase
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      BiologicalProcess
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      protein folding
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      BiologicalProcess
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      metabolic process
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      MolecularFunction
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      DNA binding
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      CellularComponent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      membrane
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Interpro
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      transferase
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Interpro
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Methyltransferase
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      CellularComponent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      membrane
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      protein2
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      CellularComponent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      integral to membrane
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Out of this table, I&amp;rsquo;m trying to get the following table:&lt;/p&gt;
+
+&lt;table style=&#34;border-collapse: collapse;&#34; border=&#34;1&#34; cellpadding=&#34;2&#34; cellspacing=&#34;2&#34;&gt;
+  &lt;tr&gt;
+    &lt;td &gt;
+      ProteinID
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      InterPro
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      Cellular Component
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      Biological Process
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      Molecular Function
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td &gt;
+      protein1
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      kinase
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      membrane
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      protein folding; metabolic process
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      DNA binding
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td &gt;
+      protein2
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      transferase; Methyltransferase
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+      membrane; integral to membrane
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+    &lt;/td&gt;
+    
+    &lt;td &gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Do you think this is possible with perl one-liner? Yes, it is..&lt;/p&gt;
+
+&lt;p&gt;Below is the code (suppose that Table 1 is in file called &lt;code&gt;GeneCategories.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -F&amp;quot;\t&amp;quot; -ane &#39;chomp($F[2]); push @{$hash-&amp;gt;{$F[0]}-&amp;gt;{$F[1]}},$F[2]; END {foreach $id (sort keys %$hash){print $id,&amp;quot;\t&amp;quot;; foreach $field qw(Interpro CellularComponent BiologicalProcess MolecularFunction){print join &amp;quot;;&amp;quot;,@{$hash-&amp;gt;{$id}-&amp;gt;{$field}}; print &amp;quot;\t&amp;quot;;}; print &amp;quot;\n&amp;quot;; } }&#39; GeneCategories.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s breakdown the code now. As we know, you can run perl code within terminal in this format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -e &#39;code&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you want to run your code in a loop, then -n option should be used. In that case, either a filename should be provided or data should be piped to perl. Auto split can be turned on by -a option which will assign split elements to an array named @F.&lt;/p&gt;
+
+&lt;p&gt;If I don&amp;rsquo;t indicate that TAB is the separator, then SPACE or TAB is considered as separator. Since my data contains SPACE, I should specifically indicate that TAB is the separator by &lt;code&gt;-F&lt;/code&gt; option.&lt;/p&gt;
+
+&lt;p&gt;One more thing about running perl in commandline with &lt;code&gt;-n&lt;/code&gt; option. Suppose you wish to run additional code before and/or after the loop, then you should use the following format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;perl -ne &#39;BEGIN {code1}; code2; END {code3}&#39; filename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this particular example, code1 will run before looping thru lines of filename and code3 will run after loop ended.&lt;/p&gt;
+
+&lt;p&gt;Okay, now the meaning of the actual code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;chomp($F[2])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Last column contains newline character at the end, I am removing it so that final output is not bad.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;push @{$hash-&amp;gt;{$F[0]}-&amp;gt;{$F[1]}},$F[2]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the core part where one protein can have multiple categories (Hash of hash) and one category can hold multiple values in an array (Hash of hash of array). Whatever is in third column is pushed into an array referred by hash of hash &lt;code&gt;$hash-&amp;gt;{ProteinNo}-&amp;gt;{Category}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After loop ended, hash structure is printed and mission accomplished..&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bash completion for scp</title>
+      <link>/blog/2010/03/10/bash-completion-for-scp/</link>
+      <pubDate>Wed, 10 Mar 2010 16:30:03 +0000</pubDate>
+      
+      <guid>/blog/2010/03/10/bash-completion-for-scp/</guid>
+      <description>&lt;p&gt;I have been looking for a solution for broken bash_completion for scp command. I was thinking my ssh was not configured correctly for password-less login. But I just found out that bash completion is broken for Ubuntu 9.10.&lt;/p&gt;
+
+&lt;p&gt;If you are suffering from same symptom, please read &lt;a href=&#34;http://pro.grammatic.org/post-fixing-scp-completion-in-ubuntu-910-73.aspx&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; for fix.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Genome sequencing and analysis of the model grass Brachypodium distachyon.</title>
+      <link>/publication/unknown-2010-id-217/</link>
+      <pubDate>Mon, 01 Feb 2010 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/unknown-2010-id-217/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retrieve WP categories from commandline</title>
+      <link>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</link>
+      <pubDate>Wed, 13 Jan 2010 19:08:15 +0000</pubDate>
+      
+      <guid>/blog/2010/01/13/retrieve-wp-categories-from-commandline/</guid>
+      <description>&lt;p&gt;Posting to WP from commandline is great. Before I post it, I need to lookup available categories so that I can categorize the new post correctly. To prevent a visit to WP admin GUI, I used the same Perl module for posting to retrieve available categories. Below is the code. I hope it helps you too..&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use WordPress::XMLRPC;
+my $o = WordPress::XMLRPC-&amp;gt;new({
+   username =&amp;gt; &#39;username&#39;,
+   password =&amp;gt; &#39;password&#39;,
+   proxy =&amp;gt; &#39;http://yourblog-address/xmlrpc.php&#39;,
+ });
+
+my $categories= $o-&amp;gt;getCategories();
+foreach (0..scalar(@$categories)) {
+	print ${$categories}[$_]-&amp;gt;{&#39;categoryId&#39;},&amp;quot;\t&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;categoryName&#39;};
+	if (${$categories}[$_]-&amp;gt;{&#39;parentId&#39;} != 0){
+		print &amp;quot;\tParentId=&amp;quot;,${$categories}[$_]-&amp;gt;{&#39;parentId&#39;},&amp;quot;\n&amp;quot;;
+		}
+	else {print &amp;quot;\n&amp;quot;}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Components and mechanisms of regulation of gene expression.</title>
+      <link>/publication/yilmaz-2010-id-218/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/yilmaz-2010-id-218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The word landscape of the non-coding segments of the Arabidopsis thaliana genome.</title>
+      <link>/publication/lichtenberg-2009-id-214/</link>
+      <pubDate>Thu, 01 Oct 2009 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/lichtenberg-2009-id-214/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Construction of Genomic Regulatory Encyclopedias: Strategies and Case Studies</title>
+      <link>/publication/lichtenberg-2009-id-216/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/lichtenberg-2009-id-216/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discovery of Regulatory Networks in Plants by Linking Promoter and Transcription Factor Databases</title>
+      <link>/publication/yilmaz-2009-id-215/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/yilmaz-2009-id-215/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRASSIUS: a platform for comparative regulatory genomics across the grasses.</title>
+      <link>/publication/yilmaz-2009-id-213/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/yilmaz-2009-id-213/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOD/SCID mouse model of canine T-cell lymphoma with humoral hypercalcaemia of malignancy: cytokine gene expression profiling and in vivo bioluminescent imaging.</title>
+      <link>/publication/nadella-2008-id-212/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/nadella-2008-id-212/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA helicase A interacts with divergent lymphotropic retroviruses and promotes translation of human T-cell leukemia virus type 1.</title>
+      <link>/publication/bolinger-2007-id-211/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/bolinger-2007-id-211/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinate enhancement of transgene transcription and translation in a lentiviral vector.</title>
+      <link>/publication/yilmaz-2006-id-210/</link>
+      <pubDate>Wed, 01 Feb 2006 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/yilmaz-2006-id-210/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retrovirus Translation Initiation: Issues and Hypotheses Derived from Study of HIV-1</title>
+      <link>/publication/yilmaz-2006-id-209/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/yilmaz-2006-id-209/</guid>
+      <description></description>
     </item>
     
   </channel>

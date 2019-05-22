@@ -13,12 +13,21 @@
     
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
+      <title>An example conference paper</title>
+      <link>/abstract/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0300</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/abstract/conference-paper/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
+    </item>
+    
+    <item>
+      <title>Construction of Genomic Regulatory Encyclopedias: Strategies and Case Studies</title>
+      <link>/publication/lichtenberg-2009-id-216/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/lichtenberg-2009-id-216/</guid>
+      <description></description>
     </item>
     
   </channel>
