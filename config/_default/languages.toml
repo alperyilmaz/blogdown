@@ -23,10 +23,35 @@
 [tr]
   languageCode = "tr-tr"
   contentDir = "content-tr"
-  title = "Türkçe site..."
+  title = "Dr.Öğr.Üyesi Alper Yılmaz"
   [tr.params]
     description = "Türkçe tarif..."
   [[tr.menu.main]]
     name = "Ana sayfa"
     url = "#about"
     weight = 1
+  [[tr.menu.main]]
+    name = "Yazılar"
+    url = "#posts"
+    weight = 2
+  [[tr.menu.main]]
+    name = "Projeler"
+    url = "#projects"
+    weight = 3
+  [[tr.menu.main]]
+    name = "Yayınlar"
+    url = "#publications"
+    weight = 4
+  [[tr.menu.main]]
+    name = "Dökümanlar"
+    url = "/tutorial/"
+    weight = 5
+  [[tr.menu.main]]
+    name = "İletişim"
+    url = "#contact"
+    weight = 6
+  [[tr.menu.main]]
+    name = "Dersler"
+    url = "#teaching"
+    weight = 7
+  
