@@ -8,12 +8,13 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/alperyilmaz
 slides: example-slides
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-title: Internal Project
+- Metabolic networks
+- Network analysis
+title: Metabolic Networks
 url_code: ""
 url_pdf: ""
 url_slides: ""

@@ -8,12 +8,14 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/alperyilmaz
 slides: example-slides
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-title: Internal Project
+- Text mining
+- Word vectors
+- Genome grammar
+title: Word Vectors
 url_code: ""
 url_pdf: ""
 url_slides: ""
