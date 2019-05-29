@@ -4,4 +4,3 @@
 
 Personal website build with blogdown at RStudio. Please visit my site at http://alperyilmaz.site/
 
-testing from alper's computer
