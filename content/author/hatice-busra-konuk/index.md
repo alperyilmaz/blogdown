@@ -1,6 +1,6 @@
 ---
 authors:
-- Hatice Busra KONUK
+- Hatice Busra Konuk
 
 interests:
 - Genetics

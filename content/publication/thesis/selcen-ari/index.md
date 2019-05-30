@@ -1,15 +1,11 @@
 ---
 abstract: |
-  Alzheimer's disease is the most common cause of dementia and is a progressive neurodegenerative disorder. Identifying the factors causing diseases is important but, the etiology of Alzheimer's disease has not been understood due to the presence of multiple factors causing disease and difficulties in creating experimental models. Oxidative stress is effective amyloid-beta accumulation and metal ions accumulate in Alzheimer’s brain.
-
-  In the literature; there are in vitro models in which amyloid-beta and metal ions are directly applied to undifferentiated cells, and models established with genetically modified amyloid-beta secreting cells influenced by metal ions. However, these models reflect late-stage pathology. Oxidative stress is effective in the early and late pathogenesis of disease and in this thesis, we aimed to create an in vitro oxidative stress-induced model of Alzheimer’s. For this purpose, human neuroblastoma cells and differentiated cells by retinoic acid to improve neuronal properties of cells have been used. Copper sulphate has been used as oxidative stress inducer and MTT, ELISA and determination of ROS methods have been performed. 
-
-   In conclusion, 50-200 micromolar copper sulphate treatments were decreased cell viability, were increased concentration of amiloid-beta42 and levels of ROS in undifferentiated and differentiated cells compared to control. It has been determined that the model established with differentiated cells represents neuronal characteristics and Alzheimer’s pathology forcefully compared to undifferentiated cells. For the first time in this study; the results demonstrate that copper-mediated oxidative stress- induced model established with differentiated SH-SY5Y by retinoic acid is a useful and effective model for Alzheimer’s disease researches. 
-
-
- 
+  MiRNAs are one of the most important factors in the molecular regulation of cancer. Since the discovery of their potential for diagnosis and treatment, studies attemped to explain interaction of miRNAs with their target genes. However, the fact that miRNAs affect multiple targets poses a challenge in miRNA:target analysis. 
+  It is necessary to be understood of microRNA:target interactions and behaviors via network-based model system which includes microRNA binding and activity factors, for the identification of interactions between microRNAs and their targets. 
+  In this study, gene and miRNA expression data from breast cancer patients were retrieved from TCGA and these data were integrated via miRNA:target binding data retrieved from high throughput immunoprecipitation experiments available at several databases. A model system has been developed taking into account factors that are important in miRNA:target interactions such as miRNA expression levels, gene expression level, seed type, binding energy and target site location on the gene. MiRNA:target interactions have been investigated by a network-based approach because single miRNA can have many targets and multiple miRNAs can exhibit repressive activity on one gene. In the case of a change in expression level of one the miRNA targets, recalculation of the expression levels of all the target genes interacting with that miRNA were analyzed on the network. 
+  As a result, a model system has been designed that simulates the regulation mechanisms and competitive behaviors of target genes through miRNA. It is possible to calculate the changes in the expression levels of neighboring genes in the network after the change in the expression of a single gene. The examination of competing behaviors of target genes against common targets of miRNAs and cooperative activities of miRNA on the regulation of common targets on network by the model developed in this thesis study will facilitate the understanding of complex miRNA: target interactions. 
 authors:
-- ARI SELCEN,YILMAZ ALPER
+- Selcen Ari
 date: "2018-07-01T00:00:00+03:00"
 doi: ""
 featured: true
@@ -30,8 +26,10 @@ slides: example
 
 summary: .
 tags:
-- Source Themes
-title: Multifactorial Modelling of MicroRNA Associated Repression and Its Subsequent Effects on Gene Expression in MicroRNA:Target Network
+- Breast cancer
+- Network-based Modeling
+- miRNA:target gene interactions
+title: Analysıs Of Interplay Between Gene Expressıon And Mırna Expressıon In Breast Cancer Next Generatıon Sequencıng Data
 url_code: '#'
 url_dataset: '#'
 url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf

@@ -1,7 +1,8 @@
 ---
 abstract: .
 authors:
-- ÖZÇIRAK ŞEYMA,YILMAZ ALPER
+- Seyma Ozcirak,
+- Alper Yilmaz
 date: "2016-07-01T00:00:00+03:00"
 doi: ""
 featured: true

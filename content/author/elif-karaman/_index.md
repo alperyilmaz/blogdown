@@ -1,6 +1,6 @@
 ---
 authors:
-- Elif KARAMAN
+- Elif Karaman
 
 interests:
 - Bioengineering
