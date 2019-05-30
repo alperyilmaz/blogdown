@@ -13,4 +13,3 @@ user_groups:
   - Alumni
 ---
 
-*Short Bio*:

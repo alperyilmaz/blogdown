@@ -1,11 +1,10 @@
 ---
 authors:
-- Selcen ARI
+- Emine Ravza GUR
 
 interests:
-- Biology
 - Bioengineering
-name: Selcen ARI
+name: Emine Ravza GÜR
 organizations:
 - name: Yildiz Technical University
 role: MSc Student
@@ -13,3 +12,4 @@ role: MSc Student
 user_groups:
   - Alumni
 ---
+

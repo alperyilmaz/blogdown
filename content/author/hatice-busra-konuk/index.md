@@ -1,14 +1,15 @@
 ---
 authors:
-- Emine Ravza GÜR
+- Hatice Busra KONUK
 
 interests:
-- Bıochemıcal Pathway
-name: Emine Ravza GÜR 
+- Genetics
+- Biology
+name: Hatice Büşra KONUK
 organizations:
 - name: Yildiz Technical University
 role: MSc Student
-
+ 
 user_groups:
   - Alumni
 ---

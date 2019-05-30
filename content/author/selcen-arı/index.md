@@ -1,16 +1,15 @@
 ---
 authors:
-- Hatice Büşra KONUK
+- Selcen Arı
 
 interests:
-- Genetics
 - Biology
-name: Hatice Büşra KONUK
+- Bioengineering
+name: Selcen ARI
 organizations:
 - name: Yildiz Technical University
 role: MSc Student
- 
+
 user_groups:
-  - Alumni 
+  - Alumni
 ---
-  

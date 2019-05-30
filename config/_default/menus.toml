@@ -46,11 +46,17 @@
   name = "Tutorials"
   url = "/tutorial/"
   weight = 50
-  
+
+[[main]]
+  name = "People"
+  url = "/people/"
+  weight = 51
+
+
 [[main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 55
+  weight = 56
 
 
 [[main]]
