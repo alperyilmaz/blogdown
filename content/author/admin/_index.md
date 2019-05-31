@@ -45,6 +45,9 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Alper_Yilmaz2
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/R-1830-2019/
 - icon: university
   icon_pack: fas
   link: https://akademik.yok.gov.tr/AkademikArama/AkademisyenGorevOgrenimBilgileri?islem=direct&authorId=04C81AEB9DE7AE55
