@@ -1,7 +1,8 @@
 ---
 abstract: ...
 authors:
-- KONUK HATİCE BÜŞRA,YILMAZ ALPER
+- Hatice Busra Konuk
+- Alper Yilmaz
 date: "2017-07-01T00:00:00+03:00"
 doi: ""
 featured: true

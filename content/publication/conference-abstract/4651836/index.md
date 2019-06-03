@@ -1,7 +1,8 @@
 ---
 abstract: ..
 authors:
-- ÖZEL CEM,YILMAZ ALPER
+- Cem OZel
+- Alper Yilmaz
 date: "2018-07-01T00:00:00+03:00"
 doi: ""
 featured: true

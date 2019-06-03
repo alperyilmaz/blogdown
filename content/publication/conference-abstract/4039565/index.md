@@ -1,7 +1,8 @@
 ---
-abstract: .
+abstract: ..
 authors:
-- KALYON OĞUZHAN,YILMAZ ALPER
+- KALYON OĞUZHAN
+- YILMAZ ALPER
 date: "2017-07-01T00:00:00+03:00"
 doi: ""
 featured: true

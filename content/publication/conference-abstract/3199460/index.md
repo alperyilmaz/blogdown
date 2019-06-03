@@ -1,7 +1,10 @@
 ---
 abstract: .
 authors:
-- Pashaei Elham,YILMAZ ALPER,Mustafa Özen,AYDIN NİZAMETTİN
+- Elham Pashaei,
+- Alper Yilmaz,
+- Mustafa Ozen,
+- Nizamettin Aydin 
 date: "2016-07-01T00:00:00+03:00"
 doi: ""
 featured: true

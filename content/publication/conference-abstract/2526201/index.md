@@ -1,7 +1,8 @@
 ---
 abstract: .
 authors:
-- Zor Seyit,YILMAZ ALPER
+- Seyit Zor 
+- Alper Yilmaz 
 date: "2015-07-01T00:00:00+03:00"
 doi: ""
 featured: true
