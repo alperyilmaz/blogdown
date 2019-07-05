@@ -13,9 +13,14 @@ install:
 script:
   - hugo version
   - hugo
+before_deploy:
   - python --version
   - sudo pip install s3cmd
-  - s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://alperyilmaz.site
+deploy:
+  provider: script
+  script: s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://alperyilmaz.site
+  on:
+    branch: master
 notifications:
     email:
         on_failure: always
