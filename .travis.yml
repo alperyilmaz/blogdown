@@ -19,6 +19,7 @@ before_deploy:
 deploy:
   provider: script
   script: s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://alperyilmaz.site
+  skip_cleanup: true
   on:
     branch: master
 notifications:
