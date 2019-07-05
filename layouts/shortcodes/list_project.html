@@ -1,0 +1,15 @@
+<h3> Graduation thesis topics </h3>
+{{ $thesis_list := $.Site.Data.lists.thesis_project.graduation_thesis }}
+ <ul>
+ {{ range $thesis_list }}
+   <li>{{ . | markdownify }}</li>
+ {{ end }}
+ </ul>
+
+<h3> 3rd year project topics </h3>
+{{ $project_list := $.Site.Data.lists.thesis_project.projects }}
+ <ul>
+ {{ range $project_list }}
+   <li>{{ . | markdownify }}</li>
+ {{ end }}
+ </ul>
