@@ -18,7 +18,7 @@ before_deploy:
   - sudo pip install s3cmd
 deploy:
   provider: script
-  script: s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://alperyilmaz.site
+  script: [[ -f public/index.html ]] && s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://alperyilmaz.site
   skip_cleanup: true
   on:
     branch: master
