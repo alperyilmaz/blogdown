@@ -20,8 +20,7 @@ before_deploy:
   - aws configure set aws_secret_access_key $SECRET_ACCESS_KEY
 deploy:
   provider: script
-  script: >
-    [ -f public/index.html ] && ~/.local/bin/aws s3 sync public/ s3://alperyilmaz.site --delete
+  script: [ -f public/index.html ] && ~/.local/bin/aws s3 sync public/ s3://alperyilmaz.site --delete
   skip_cleanup: true
   on:
     branch: master
