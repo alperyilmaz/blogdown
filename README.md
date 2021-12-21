@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/alperyilmaz/blogdown.svg?branch=master)](https://travis-ci.org/alperyilmaz/blogdown)
+[![Build Status](https://travis-ci.com/alperyilmaz/blogdown.svg?branch=master)](https://travis-ci.com/alperyilmaz/blogdown)
 
 # blogdown
 
